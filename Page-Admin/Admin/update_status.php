@@ -1,10 +1,10 @@
 <?php
 $host = "localhost";
-$user = "root";
-$pass = "";
-$db = "db_sibkm";
+$user = "iskpewao_fatih";
+$pass = "db_sibkm123";
+$database = "xbpyirjl_sibkm";
 
-$koneksi = mysqli_connect($host, $user, $pass, $db);
+$koneksi = mysqli_connect($host, $user, $pass, $database);
 if (!$koneksi) {
     http_response_code(500);
     echo "Koneksi gagal.";

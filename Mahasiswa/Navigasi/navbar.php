@@ -12,11 +12,11 @@ $nim = $_SESSION['nim'];
 
 // Koneksi ke database
 $host = "localhost";
-$user = "root";
-$pass = "";
-$db   = "db_sibkm";
+$user = "xbpyirjl_fatih";
+$pass = "db_sibkm123";
+$database = "xbpyirjl_sibkm";
 
-$conn = new mysqli($host, $user, $pass, $db);
+$conn = mysqli_connect($host, $user, $pass, $database);
 
 if ($conn->connect_error) {
     die("Koneksi gagal: " . $conn->connect_error);

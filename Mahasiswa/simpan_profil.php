@@ -7,11 +7,11 @@ if (!isset($_SESSION['nim'])) {
 }
 
 $host = "localhost";
-$user = "root";
-$pass = "";
-$dbname = "db_sibkm";
+$user = "xbpyirjl_fatih";
+$pass = "db_sibkm123";
+$database = "xbpyirjl_sibkm";
 
-$conn = new mysqli($host, $user, $pass, $dbname);
+$conn = mysqli_connect($host, $user, $pass, $database);;
 if ($conn->connect_error) {
     die("Koneksi gagal: " . $conn->connect_error);
 }
